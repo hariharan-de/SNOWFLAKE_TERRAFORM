@@ -5,6 +5,9 @@ on:
     branches:
       - main
 
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true   # ← Add this
+
 jobs:
   snowflake-terraform-demo:
     name: "Snowflake Terraform Demo Job"
